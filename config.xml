@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mario.pizza"
+        version   = "3.0.0">
+
+    <name>Marios Pizza</name>
+
+    <description>
+        A pizza takeaway.
+    </description>
+
+    <author href="worcester.ac.uk" email="sohz1_15@uni.worc.ac.uk">
+        WBS Computing
+    </author>
+
+    <preference name="permissions"                value="none"/>   
+	
+	<access origin="*"/>
+   	<plugin name="cordova-plugin-whitelist" version="1" />
+</widget>
