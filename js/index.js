@@ -13,3 +13,18 @@ function submitText() {
 function storeValue(key, value) {
 	//add some code to store the key-value pair in persistant storage 
 }
+
+  
+  	$('#tapholdtext').on("taphold",function(){
+    	$(this).hide();
+ 	});                       
+
+	$('#taptext').on("tap",function(){
+    	alert("Stop tapping!");
+ 	}); 
+
+	$('#swipetext').on("swipeleft",function(){
+    	$(this).css('color', 'green');
+  	});   
+
+
