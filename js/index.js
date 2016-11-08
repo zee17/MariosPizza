@@ -14,6 +14,7 @@ function storeValue(key, value) {
 	//add some code to store the key-value pair in persistant storage 
 }
 
+$(document).on("pagecreate","#pageone",function(){
   
   	$('#tapholdtext').on("taphold",function(){
     	$(this).hide();
@@ -28,3 +29,4 @@ function storeValue(key, value) {
   	});   
 
 
+});
